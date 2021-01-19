@@ -1,6 +1,6 @@
 # AZ-Touch-ESP-Video
 
-This is an example how to use AZ-Touch MOD for ESP32 to show live pictures of an IP camera display on the screen. This can be used for example for video surveillance, video door bells and similar applications. 
+This is an example how to use AZ-Touch MOD for ESP32 to show live pictures of an IP camera on the screen. This can be used for example for video surveillance, video door bells and similar applications. 
 
 ![My image](https://user-images.githubusercontent.com/3049858/105029941-56348500-5a53-11eb-8301-2ac0e21983a8.jpg)
 
@@ -17,7 +17,7 @@ https://www.hwhardsoft.de/english/projects/arduitouch-esp/
 ## Camera
 
 This example was written for the ESP32-CAM camera. 
-![My image]()
+![My image](https://user-images.githubusercontent.com/3049858/105034491-d8c04300-5a59-11eb-9577-a203aa188705.jpg)
 
 Please install the CameraWebServer example on the ESP32-cam which comes with the Arduino IDE.
 ![My image](https://user-images.githubusercontent.com/3049858/105033964-1c667d00-5a59-11eb-9af5-de14a0812b04.jpg)
@@ -60,18 +60,8 @@ const char* password = "your password";
 
 Furthermore you have to change the host ip address to the ip address of your camera.
 
+const char* host = "192.168.178.40";
 
-## SSL certificates
-The tracker is using SSL communication with the website worldometers.info It is necessary needed to add this URL via the WiFi101 / WiFiNINA Firmware Updater of the Arduino IDE to the Arduino MKR WiFi 1010 board
-
-![My image](https://hackster.imgix.net/uploads/attachments/1089827/grafik_5hEqived4T.png?auto=compress%2Cformat&w=740&h=555&fit=max)
-
-
-## Country settings
-
-You can change/add/delete the countries in the main loop of the program according your interests.
-
-![My image](https://hackster.imgix.net/uploads/attachments/1089828/grafik_eRLuAc5tGD.png?auto=compress%2Cformat&w=680&h=510&fit=max)
 
 
 # License

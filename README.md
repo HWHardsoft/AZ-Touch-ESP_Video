@@ -1,7 +1,6 @@
 # AZ-Touch-ESP-Video
 
-This is an example how to use AZ-Touch MOD for ESP32 to show live pictures of an IP camera display on the screen. This can be used for example for  
-video surveillance, video door bells and similar applications. 
+This is an example how to use AZ-Touch MOD for ESP32 to show live pictures of an IP camera display on the screen. This can be used for example for video surveillance, video door bells and similar applications. 
 
 ![My image](https://user-images.githubusercontent.com/3049858/105029941-56348500-5a53-11eb-8301-2ac0e21983a8.jpg)
 
@@ -27,20 +26,38 @@ You can also download the library also directly as ZIP file and uncompress the f
 
 After installing the libraries, restart the Arduino IDE. 
 
+
 ## TFT_eSPI Setup
 
 I've prepared a User setup files for the TFT_eSPI library especially for AZ-Touch and ESP32 
 
+https://github.com/HWHardsoft/AZ-Touch-ESP_Video/blob/main/TFT_eSPI_Setup/User_Setup.h
+
+Please replace the original User_Setup.h file in your ...\Arduino\libraries\TFT_eSPI\ folder
+
+
+## Camera
+
+This example was written for the ESP32-CAM camera. 
+![My image](https://www.fambach.net/wp-content/uploads/2019/09/image-13.png)
+
+Please install the CameraWebServer example on the ESP32-cam which comes with the Arduino IDE.
+
+
+
+
+The software can be used with other IP cameras too if this cameras can provide a jpg picture via http in QVGA (320 x 240) or VGA (640 x 480) size. Probably some small changes especially in the host address configuration are needed in this case.
 
 
 
 ## Settings
 
-Enter your WiFi SSID & password in the fields in the WiFi section: 
+Open the file settings.h in the Arduino IDE and enter your WiFi SSID & password in the fields in the WiFi section: 
 
-#define WIFI_SSID "xxxxxx"    // Enter your SSID here 
+const char* ssid = "your ssid";
+const char* password = "your password";
 
-#define WIFI_PASS "xxxxx"    // Enter your WiFi password here 
+Furthermore you have to change the host ip address to the ip address of your camera.
 
 
 ## SSL certificates

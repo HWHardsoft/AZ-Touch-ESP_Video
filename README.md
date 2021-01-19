@@ -4,6 +4,10 @@ This is an example how to use AZ-Touch MOD for ESP32 to show live pictures of an
 
 ![My image](https://user-images.githubusercontent.com/3049858/105029941-56348500-5a53-11eb-8301-2ac0e21983a8.jpg)
 
+
+[![Watch the video](https://i9.ytimg.com/vi/41QTn6MzIbA/mq2.jpg?sqp=CITAm4AG&rs=AOn4CLBQiqDSzxs3ZZmQxMmFEhXdGAX4Ow)](https://youtu.be//41QTn6MzIbA)
+
+
 ## Hardware 
 
 I've used our AZ-Touch MOD kit for ESP32 as hardware plattform. This kit comes with a 2.4 or 2.8 inch tft touchscreen. The demo will work with both screen sizes, but of course it makes more sense to use the bigger 2.8 inch screen in this application.
@@ -71,7 +75,6 @@ Stefan Fambach    www.fambach.net
 Github user 0015  https://github.com/0015/IdeasNProjects
 
 
-[![Watch the video](https://img.youtube.com/vi//41QTn6MzIbA/maxresdefault.jpg)](https://youtu.be//41QTn6MzIbA)
 
 
 # License

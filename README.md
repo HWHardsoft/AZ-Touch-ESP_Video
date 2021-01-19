@@ -42,10 +42,10 @@ This example was written for the ESP32-CAM camera.
 ![My image]()
 
 Please install the CameraWebServer example on the ESP32-cam which comes with the Arduino IDE.
-![My image]()
+![My image](https://user-images.githubusercontent.com/3049858/105033964-1c667d00-5a59-11eb-9af5-de14a0812b04.jpg)
 
 Please choose ESP-WROOVER
-
+![My image]()
 
 
 The software can be used with other IP cameras too if this cameras can provide a jpg picture via http in QVGA (320 x 240) or VGA (640 x 480) size. Probably some small changes especially in the host address configuration are needed in this case.

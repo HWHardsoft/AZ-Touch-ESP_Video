@@ -14,6 +14,21 @@ You can find all information about the hardware here:
 https://www.hwhardsoft.de/english/projects/arduitouch-esp/
 
 
+## Camera
+
+This example was written for the ESP32-CAM camera. 
+![My image]()
+
+Please install the CameraWebServer example on the ESP32-cam which comes with the Arduino IDE.
+![My image](https://user-images.githubusercontent.com/3049858/105033964-1c667d00-5a59-11eb-9af5-de14a0812b04.jpg)
+
+Please choose "ESP Wrover Module" as board and "Huge APP ..." as partition scheme:
+![My image](https://user-images.githubusercontent.com/3049858/105033944-17093280-5a59-11eb-8acb-c223c089b0b0.jpg)
+
+
+The software can be used with other IP cameras too if this cameras can provide a jpg picture via http in QVGA (320 x 240) or VGA (640 x 480) size. Probably some small changes especially in the host address configuration are needed in this case.
+
+
 ## Libraries
 
 Install the following libraries through Arduino Library Manager
@@ -36,23 +51,7 @@ https://github.com/HWHardsoft/AZ-Touch-ESP_Video/blob/main/TFT_eSPI_Setup/User_S
 Please replace the original User_Setup.h file in your ...\Arduino\libraries\TFT_eSPI\ folder
 
 
-## Camera
-
-This example was written for the ESP32-CAM camera. 
-![My image]()
-
-Please install the CameraWebServer example on the ESP32-cam which comes with the Arduino IDE.
-![My image](https://user-images.githubusercontent.com/3049858/105033964-1c667d00-5a59-11eb-9af5-de14a0812b04.jpg)
-
-Please choose ESP-WROOVER
-![My image]()
-
-
-The software can be used with other IP cameras too if this cameras can provide a jpg picture via http in QVGA (320 x 240) or VGA (640 x 480) size. Probably some small changes especially in the host address configuration are needed in this case.
-
-
-
-## Settings
+## Settings 
 
 Open the file settings.h in the Arduino IDE and enter your WiFi SSID & password in the fields in the WiFi section: 
 

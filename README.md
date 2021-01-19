@@ -39,10 +39,12 @@ Please replace the original User_Setup.h file in your ...\Arduino\libraries\TFT_
 ## Camera
 
 This example was written for the ESP32-CAM camera. 
-![My image](https://www.fambach.net/wp-content/uploads/2019/09/image-13.png)
+![My image]()
 
 Please install the CameraWebServer example on the ESP32-cam which comes with the Arduino IDE.
+![My image]()
 
+Please choose ESP-WROOVER
 
 
 

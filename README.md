@@ -71,8 +71,8 @@ const char* host = "192.168.178.40";
 
 This example based on the awesome work of:
 
-Stefan Fambach    www.fambach.net
-Github user 0015  https://github.com/0015/IdeasNProjects
+* Stefan Fambach    www.fambach.net
+* Github user 0015  https://github.com/0015/IdeasNProjects
 
 
 

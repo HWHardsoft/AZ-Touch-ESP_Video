@@ -1,6 +1,6 @@
 # AZ-Touch-ESP-Video
 
-This is an example how to use AZ-Touch MOD for ESP32 to show live pictures of an IP camera display on the screen. This can be used for example for   
+This is an example how to use AZ-Touch MOD for ESP32 to show live pictures of an IP camera display on the screen. This can be used for example for  
 video surveillance, video door bells and similar applications. 
 
 ![My image](https://user-images.githubusercontent.com/3049858/105029941-56348500-5a53-11eb-8301-2ac0e21983a8.jpg)
@@ -19,15 +19,22 @@ https://www.hwhardsoft.de/english/projects/arduitouch-esp/
 
 Install the following libraries through Arduino Library Manager
 
-Adafruit GFX Library https://github.com/adafruit/Adafruit-GFX-Library/archive/master.zip 
+Arduino TFT_eSPI Library https://github.com/Bodmer/TFT_eSPI 
 
-Adafruit ILI9341 Library https://github.com/adafruit/Adafruit_ILI9341 
+Arduino TJpg_Decoder library https://github.com/Bodmer/TJpg_Decoder
 
 You can also download the library also directly as ZIP file and uncompress the folder under yourarduinosketchfolder/libraries/   
 
 After installing the libraries, restart the Arduino IDE. 
 
-## WiFi settings
+## TFT_eSPI Setup
+
+I've prepared a User setup files for the TFT_eSPI library especially for AZ-Touch and ESP32 
+
+
+
+
+## Settings
 
 Enter your WiFi SSID & password in the fields in the WiFi section: 
 
